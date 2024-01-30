@@ -1,6 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 body {
-  background-image: linear-gradient(#3b1566, #5f4da8);
+  background-image: linear-gradient(#444444, #000000);
   height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,12 +29,21 @@ button {
   align-items: center;
 }
 
+#capa {
+  border-radius: 8px;
+}
+
 #informacoes-faixa {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0 1rem 0;
+  margin: 1.4rem 0 1rem 0;
   font-size: 1.5rem;
+}
+
+#informacoes-faixa p{
+  font-family: "Candara Light", serif ;
+  margin: 10px 0;
 }
 
 
